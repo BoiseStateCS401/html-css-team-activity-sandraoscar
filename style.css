@@ -8,3 +8,51 @@ h1,h2,h3{
  color: #ea503f;
  font-size: 32px;
 }
+
+p,li{
+	color: #59FF33;
+}
+
+em{
+	color: #FF33F2;
+}
+
+h1,h2,h3{
+	text-align:center;
+}
+
+ul{
+	list-style-type: circle;
+	padding: 10px;       
+}
+
+ul ul li{
+	list-style-type: square;
+}
+
+a:link{
+	text-decoration:none;
+}
+
+img{
+	border-radius: 25px;
+        	
+}
+img:hover{
+	opacity: .10;
+}
+
+pre{
+    padding: 100px;
+    border-style: dashed;
+    border-width: 5px;
+    background-color: #33FFD5;
+}
+
+table{
+    padding: 50px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    background-color:#33FFF7;
+}
